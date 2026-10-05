@@ -1211,13 +1211,21 @@ h2 {
 
 .price-tag {
   position: relative;
+  z-index: 1;
   width: min(58rem, 84%);
   margin: auto;
   padding: 5rem 4rem 4rem 8rem;
+  text-align: center;
+  filter: drop-shadow(0 18px 25px color-mix(in oklab, var(--navy) 24%, transparent));
+}
+
+.price-tag::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: linear-gradient(110deg, var(--yellow-soft), var(--peach));
   clip-path: polygon(12% 0, 100% 0, 100% 100%, 12% 100%, 0 50%);
-  text-align: center;
-  box-shadow: 0 18px 25px color-mix(in oklab, var(--navy) 24%, transparent);
 }
 
 .tag-hole {

@@ -37,7 +37,7 @@ export function Hero() {
           6 semanas para estudiar, practicar
           <br className="hidden sm:block" /> y llegar listo a tu examen.
         </p>
-        <a className="cta-pill hero-cta" href="#inversion">
+        <a className="cta-pill hero-cta" href="#como-pagar">
           QUIERO INSCRIBIRME
         </a>
       </div>

@@ -8,7 +8,7 @@ export function FinalCta() {
         <DoodleStar key={i} className={`night-star night-star-${i + 1}`} />
       ))}
       <h2 id="final-title">¿Lista/o para prepararte?</h2>
-      <a className="cta-pill final-button" href="#inversion">
+      <a className="cta-pill final-button" href="#como-pagar">
         QUIERO INSCRIBIRME
       </a>
       <p className="script final-copy">

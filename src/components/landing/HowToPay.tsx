@@ -109,9 +109,14 @@ export function HowToPay() {
         </div>
 
         {/* Footer Pill */}
-        <div className="bg-[var(--mint)] text-white text-center py-4 px-6 rounded-full font-bold tracking-wider text-sm md:text-base shadow-md uppercase transform transition-all hover:scale-105 duration-300 cursor-pointer animate-in fade-in zoom-in-95 duration-700 delay-500">
+        <a 
+          href="https://wa.me/524792203076?text=Ya%20hice%20mi%20pago%20-%20%5BTU%20NOMBRE%5D"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-[var(--mint)] text-white text-center py-4 px-6 rounded-full font-bold tracking-wider text-sm md:text-base shadow-md uppercase transform transition-all hover:scale-105 duration-300 cursor-pointer animate-in fade-in zoom-in-95 duration-700 delay-500"
+        >
           CUALQUIER DUDA, COMUNÍCATE DIRECTAMENTE A MI WHATSAPP
-        </div>
+        </a>
       </div>
     </SectionShell>
   );
